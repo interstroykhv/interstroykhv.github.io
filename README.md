@@ -1,6 +1,6 @@
 # interstroykhv.github.io
 Inter Stroy official site
 
-Version: 1.00
+Version: r101
 
 2019
