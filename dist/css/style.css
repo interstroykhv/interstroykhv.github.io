@@ -1062,10 +1062,10 @@ label {
   .site-header::before {
     content: '';
     position: absolute;
-    top: -140px;
+    top: 0px;
     right: -100px;
     width: 1440px;
-    height: 324px;
+    height: 0px;
     background-image: url("../images/header-illustration-light.svg"); }
     .lights-off .site-header::before {
       background-image: url("../images/header-illustration-dark.svg"); }
@@ -1104,7 +1104,7 @@ label {
 .hero {
   text-align: center;
   padding-top: 0px;
-  padding-bottom: 88px; }
+  padding-bottom: 5px; }
 
 .hero-copy {
   position: relative;
@@ -1117,7 +1117,7 @@ label {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 80px; }
+  margin-bottom: 0px; }
 
 .lights-toggle {
   color: rgba(107, 122, 144, 0.64); }
@@ -1164,8 +1164,8 @@ label {
 @media (min-width: 641px) {
   .hero {
     text-align: left;
-    padding-top: 88px;
-    padding-bottom: 120px; }
+    padding-top: 5px;
+    padding-bottom: 20px; }
   .hero-inner {
     /* Split hero in two half */
     display: flex;
@@ -1552,6 +1552,7 @@ hr::after,
 
 .is-loaded .header-logo-image {
   animation: fadeInLogo 0.35s both cubic-bezier(0.3, 0, 0.2, 1);
+  transform: scale(0.60) translate3d(-80px, 0, 0);
   will-change: transform; }
 
 .is-loaded .hero-media-image {
